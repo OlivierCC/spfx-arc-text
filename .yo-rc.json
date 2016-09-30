@@ -1,0 +1,7 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "arc-text",
+    "libraryId": "c476102c-040b-43d2-93eb-a5c85dcb4c2a",
+    "framework": "react"
+  }
+}
