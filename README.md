@@ -12,6 +12,8 @@ Your title has now an awesome look.
 
 ![ArcText](./assets/arctextoverview.gif)
 
+## Features
+
 ## Run this web part in the SharePoint workbench
 
 ```bash
@@ -23,8 +25,6 @@ gulp serve
 
 If you need more information about to develop SharePoint Framework client side web part, deploy and test it on your workbench
 station, you can consult the following tutorial: https://github.com/SharePoint/sp-dev-docs/wiki/Setup-SharePoint-Tenant
-
-## Features
 
 ## How to use it in the local or the SharePoint workbench
 
