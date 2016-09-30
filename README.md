@@ -1,26 +1,41 @@
-## arc-text
+> Note: The SharePoint Framework is currently in preview and is subject to change. SharePoint Framework client-side web parts are not currently supported for use in production enviornments.
 
-This is where you include your web part docs.
+## ArcText Web Part
 
-### Building the code
+The ArcText Web Part is a SharePoint client side web part built with the SharePoint Framework (SPFx) in the preview version.
+This web part adds a curved text effect to your titles.
+This project uses the JQuery plugin [jquery.arctext.js](http://www.codrops.com) created by Pedro Botelho.
+
+Thanks to this WP, you can insert your text, change the radius, the direction, the size, the font, etc.
+Your title has now an awesome look.
+
+![ArcText](./assets/arctextoverview.gif)
+
+## Run this web part in the SharePoint workbench
 
 ```bash
 git clone the repo
 npm i
-npm i -g gulp
-gulp
+tsd install
+gulp serve
 ```
 
-This package produces the following:
+If you need more information about to develop SharePoint Framework client side web part, deploy and test it on your workbench
+station, you can consult the following tutorial: https://github.com/SharePoint/sp-dev-docs/wiki/Setup-SharePoint-Tenant
 
-* lib/* commonjs components - this allows this package to be reused from other packages.
-* dist/* - a single bundle containing the components used for uploading to a cdn pointing a registered Sharepoint webpart library to.
-* example/* a test page that hosts all components in this package.
+## Features
 
-### Build options
+## How to use it in the local or the SharePoint workbench
 
-gulp nuke - TODO
-gulp test - TODO
-gulp watch - TODO
-gulp build - TODO
-gulp deploy - TODO
+By compiling this code on a configured workstation, you can test this web part on your local SharePoint workbench
+or on a developer site. Please follow the tutorials in the SPFx tutorial to know the process : https://github.com/SharePoint/sp-dev-docs/wiki/Setup-SharePoint-Tenant
+
+##The MIT License (MIT)
+
+Copyright (c) 2016 Olivier Carpentier
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
