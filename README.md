@@ -4,7 +4,7 @@
 
 The ArcText Web Part is a SharePoint client side web part built with the SharePoint Framework (SPFx) in the preview version.
 This web part adds a curved text effect to your titles.
-This project uses the JQuery plugin [jquery.arctext.js](http://www.codrops.com) created by Pedro Botelho.
+This project uses the JQuery plugin [jquery.arctext.js](https://github.com/codrops/Arctext) created by Pedro Botelho.
 This web part uses also the [Custom Fields library](https://github.com/OlivierCC/spfx-custom-fields) to enhance the web part edition experience.
 
 Thanks to this WP, you can insert your text, change the radius, the direction, the size, the font, etc.
@@ -13,6 +13,16 @@ Your title has now an awesome look.
 ![ArcText](./assets/arctextoverview.gif)
 
 ## Features
+
+You can manage the following settings:
+* **Text**: sets your text
+* **Radis**: specifies the radius
+* **Rotate Letters**: indicates if the letters must rotate or stay vertical
+* **Reverse**: reverses the curved effect
+* **Align**: aligns text on left, center or right
+* **Font**: specifies the font family as Arial, Verdana, etc.
+* **Size**: sets the font size
+* **Color**: sets the font color
 
 ## Run this web part in the SharePoint workbench
 
