@@ -17,9 +17,10 @@ import {
 
 import * as strings from 'arcTextStrings';
 import { IArcTextWebPartProps } from './IArcTextWebPartProps';
-import { PropertyFieldColorPicker } from './controls/PropertyFieldColorPicker';
-import { PropertyFieldFontPicker } from './controls/PropertyFieldFontPicker';
-import { PropertyFieldFontSizePicker } from './controls/PropertyFieldFontSizePicker';
+
+import { PropertyFieldColorPicker } from 'sp-client-custom-fields/lib/PropertyFieldColorPicker';
+import { PropertyFieldFontPicker } from 'sp-client-custom-fields/lib/PropertyFieldFontPicker';
+import { PropertyFieldFontSizePicker } from 'sp-client-custom-fields/lib/PropertyFieldFontSizePicker';
 
 require('jquery');
 require('arctext');
