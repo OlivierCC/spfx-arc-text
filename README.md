@@ -16,7 +16,7 @@ Your title has now an awesome look.
 
 You can manage the following settings:
 * **Text**: sets your text
-* **Radis**: specifies the radius
+* **Radius**: specifies the radius
 * **Rotate Letters**: indicates if the letters must rotate or stay vertical
 * **Reverse**: reverses the curved effect
 * **Align**: aligns text on left, center or right
